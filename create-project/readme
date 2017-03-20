@@ -1,0 +1,17 @@
+1. gradle clone https://github.com/junnyea/init-gradle.git
+2. create eclipse project - gradle
+3. git add files
+4. git commit -m "comments for files commited"
+5. git push
+
+
+to remove files
+1. git rm files.name
+2. git commit -m "file removed"
+
+to removed folder
+1. git rm -r folder.name
+
+to removed files/folder from repository but not from local
+1. git rm -r --cached folder.name
+2. git rm --cached files.name
